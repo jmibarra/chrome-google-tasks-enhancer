@@ -1,16 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Extensión para Google Tasks",
+  "name": "Extension para Google Tasks (Chrome)",
   "version": "0.1",
-  "description": "Añade etiquetas, prioridades y otras funcionalidades a Google Tasks.",
+  "description": "Añade etiquetas y prioridades a Google Tasks guardando los datos localmente.",
   "permissions": [
-    "activeTab",
     "storage"
   ],
   "content_scripts": [
     {
       "matches": ["https://tasks.google.com/*"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "css": ["styles.css"]
     }
   ]
 }

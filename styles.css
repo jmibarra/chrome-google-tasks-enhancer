@@ -1,0 +1,23 @@
+.task-enhancer-button {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 10px;
+    margin-left: 8px;
+    cursor: pointer;
+    vertical-align: middle; /* Ayuda a alinear mejor con el texto */
+}
+
+/* Estilo para las etiquetas */
+.task-enhancer-tag {
+    background-color: #0b57d0; /* Un azul primario */
+    color: white;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 10px;
+    margin-left: 8px;
+    font-weight: 500;
+    vertical-align: middle;
+}
